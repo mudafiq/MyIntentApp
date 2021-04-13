@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.buttonPindahActivityDenganData:
                 Intent moveWithDataIntent = new Intent(this, MoveWithDataActivity.class);
-                moveWithDataIntent.putExtra("extra_name", "DicodingAcademy Boy");
+                moveWithDataIntent.putExtra("extra_name", "PintarNgoding Academy Boy");
                 moveWithDataIntent.putExtra("extra_age", 5);
                 startActivity(moveWithDataIntent);
                 break;
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.buttonShare:
                 Intent share = new Intent(Intent.ACTION_SEND);
-                share.putExtra(Intent.EXTRA_TEXT, "Mari Belajar Android di Dicoding");
+                share.putExtra(Intent.EXTRA_TEXT, "Mari Belajar Android di Politeknik Negeri Jember");
                 share.setType("text/plain");
                 startActivity(Intent.createChooser(share, "share link"));
                 break;
