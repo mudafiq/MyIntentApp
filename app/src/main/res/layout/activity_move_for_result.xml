@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoveForResultActivity">
+
+    <TextView
+        android:text="Pilih angka yang anda suka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupAngka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton100"
+            android:text="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioButton50"
+            android:text="50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioButton32"
+            android:text="32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
